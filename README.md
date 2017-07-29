@@ -1,15 +1,15 @@
 ![](brand-colors.png)
 
-brand-colors is a collection of colors works available in sass, less, stylus and css
+brand-colors 是一个品牌颜色合集，可用于sass，less，stylus和css中。
 
-## Installation
+## 安装
 
 ```
 npm install brand-colors
 bower install brand-colors
 ```
 
-## Usage
+## 用法
 
 #### scss
 ```scss
@@ -27,8 +27,8 @@ bower install brand-colors
   color: @bc-spotify;
 }
 ```
-##### in webpack
-  * use relative path to the `node_modules`, for example:
+##### 在webpack中
+  * 使用相對路徑 `node_modules`, 比如:
   
   ```js
     app
@@ -80,7 +80,7 @@ Use [postcss-brand-color](https://github.com/postcss/postcss-brand-colors) plugi
 postcss([ require('postcss-brand-colors') ])
 ```
 
-and use `*-color` names:
+并使用颜色名 `*-color`:
 
 ```css
 .a-div {
@@ -88,9 +88,9 @@ and use `*-color` names:
 }
 ```
 
-### Run brand-colors.com locally
-If you want to work on the static homepage, just run the following commands
-and you will get a live-reloading server listening for changes in /app
+### 在本地运行brand-colors.com
+如果您想对静态网页的工作，只需要运行下面的命令
+你会得到一个活重装服务器监听在/ app变化
 and brandColors.js
 ```bash
 npm install
